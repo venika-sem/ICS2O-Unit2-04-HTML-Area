@@ -18,5 +18,5 @@ function calculateArea() {
 
   // output
   document.getElementById('area').innerHTML =
-    "<p>Your area is: " + base + " " + height + ".</p>"
+    "<p>Your area is: '2 / (' + base + '+' + height + ') = ' + area + ' or ' + area + ' cm².'</p>"
 }
