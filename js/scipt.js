@@ -8,7 +8,7 @@
 /**
  * This function calculates area of triangle.
  */
-function calculate () {
+function calculateArea() {
   // input
   const base = parseInt(document.getElementById('base-of-triangle').value)
   const height = parseInt(document.getElementById('height-of-triangle').value)
@@ -17,5 +17,6 @@ function calculate () {
   const area = 2 / (base * height)
 
   // output
-  document.getElementById('area').innerHTML = 'Area is: ' + area + ' cm²'
+  document.getElementById('area').innerHTML =
+    "<p>Your area is: " + base + " " + height + ".</p>"
 }
